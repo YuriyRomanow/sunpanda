@@ -1,0 +1,42 @@
+.layout {
+    min-height: 992px;
+    width: 100%;
+    position: relative;
+}
+.home-banner {
+    background-color: #ff5a00;
+    position: relative;
+    width: 100%;
+}
+
+.l-element {
+    background-image: url("images/l-element.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.c-element {
+    height: 60%;
+    padding-top: 10px;
+}
+
+.c-element-image {
+    background: url("images/c-element.png") 50% no-repeat;
+    background-size: contain;
+    height: 14.4vmax;
+    width: 100%;
+}
+
+.r-element {
+    background-image: url("images/r-element.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-text {
+    color: #fff;
+    font-size: calc(21px + .00549vmax);
+    font-weight: 800;
+    padding-bottom: 1.9vw;
+    padding-top: 10px;
+}

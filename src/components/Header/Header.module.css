@@ -1,0 +1,14 @@
+
+
+.header {
+    background-color: #fff;
+    box-shadow: 0 5px 10px 1px grey;
+    padding: 0 12px;
+    position: fixed;
+    width: 100%;
+}
+
+.header__item {
+    margin-left: auto;
+    width: 20vmax;
+}
