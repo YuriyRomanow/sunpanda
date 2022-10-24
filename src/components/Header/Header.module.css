@@ -1,14 +1,14 @@
-
-
 .header {
     background-color: #fff;
     box-shadow: 0 5px 10px 1px grey;
-    padding: 0 12px;
-    position: fixed;
+    padding: 0 5px;
+    position: relative;
     width: 100%;
+    z-index: 2000;
 }
 
-.header__item {
-    margin-left: auto;
-    width: 20vmax;
+.fixed_top {
+    left: 0;
+    right: 0;
+    top: 0;
 }

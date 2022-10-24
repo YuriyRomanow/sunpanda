@@ -1,0 +1,61 @@
+.section_banner__container {
+    max-height: 400px;
+    position: relative;
+    z-index: 9;
+}
+
+.section_banner__img {
+    min-height: 80px;
+    width: 100%;
+}
+
+.section_banner__block_header {
+    padding-left: 20%;
+    padding-right: 39%;
+    padding-top: 2%;
+    position: absolute;
+    top: 10%;
+}
+
+.main_heading {
+    font-size: 2.3vmax;
+    font-weight: 800;
+    line-height: 2.9vw;
+}
+
+.section_banner__block_btn {
+    background-color: var(--color-orange);
+    border-radius: 3px;
+    display: inline;
+    padding: 1.2% 3%;
+    transition: .2s ease-out;
+}
+
+.section_banner__block_btn:active {
+    box-shadow: inset 1px 1px 5px #000;
+}
+
+.section_banner__block_btn:hover {
+    box-shadow: 0 5px 10px 1px grey;
+    color: #000;
+}
+
+
+.section_banner__btn {
+    font-size: 1.3vmax;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.float_left {
+    float: left;
+}
+
+.cursor_pointer {
+    cursor: pointer!important;
+}
