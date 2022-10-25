@@ -1,0 +1,46 @@
+:root {
+    --bg-color-orange: #ff5a00;
+
+    --color-orange: #ff5a00;
+
+    --fs-biggest: calc(21px + .00549vmax);
+    --fs-big: calc(16px + .00549vmax);
+    --fs-medium: calc(13px + .00549vmax);
+    --fs-small: calc(11px + .00549vmax);
+}
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Montserrat,sans-serif;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    min-height: 100%;
+    min-width: 100px;
+    box-sizing: border-box;
+    margin: 0;
+    direction: ltr;
+    width: 100%;
+}
+
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    border-style: none;
+}
