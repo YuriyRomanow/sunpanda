@@ -22,13 +22,14 @@ const RestaurantPage = () => {
         const res = await getApiResource(url)
 
         if (res) {
+            console.log(res)
             res.map(item => {
                 if (item.name === shopName) {
                     setCostDeliver(item.costDelivery)
                     setRange(item.range)
                 }
             })
-        return res;
+
         }
     }
 

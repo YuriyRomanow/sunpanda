@@ -16,6 +16,7 @@ const RestaurantProductsList = ({range, category}) => {
             setMenuList(range)
         }
     },[range, category])
+    console.log(range)
     return (
         <div>
             {menuList.map(({name, products}) => {

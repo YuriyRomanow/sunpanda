@@ -20,7 +20,7 @@
   "scripts": {
     "start": "react-app-rewired start",
     "dataCity": "json-server -p 3004 -w dataCity.json",
-    "dataRestaurant": "json-server -p 3005 -w dataCity.json",
+    "dataRestaurant": "json-server -p 3005 -w dataRestaurant.json",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test"
   },
